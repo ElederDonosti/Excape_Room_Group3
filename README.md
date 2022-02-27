@@ -1,6 +1,4 @@
-# Excape_Room_Group3
-
-# Project: Escape Room Python Game
+# Project: Escape Room Python Game (Group_3)
 
 ## Overview
 
