@@ -10,6 +10,7 @@ Created on Mon Mar  7 16:34:50 2022
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import pygame
+
 # define rooms and items
 
 couch = {
@@ -157,9 +158,6 @@ def start_game():
     Start the game
     """
     print("You wake up on a couch and find yourself in a strange house with no windows which you have never been to before. You don't remember why you are here and what had happened before. You feel some unknown danger is approaching and you must get out of the house, NOW!")
-    #img = mpimg.imread('game_room.jpg')
-    #imgplot = plt.imshow(img)
-    #plt.show()
     play_room(game_state["current_room"])
     
 def reset_game_state():   # complete definition is added
